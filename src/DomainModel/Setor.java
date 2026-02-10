@@ -57,5 +57,9 @@ public class Setor implements Serializable {
         }
         return Objects.equals(this.id, other.id);
     }
+    @Override
+    public String toString() {
+        return this.nome; // Ou o nome da variável que guarda o nome do setor
+    }
     
 }
