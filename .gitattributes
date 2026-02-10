@@ -1,0 +1,12 @@
+# Forçar a detecção automática de arquivos de texto
+* text=auto
+
+# Garantir que arquivos de código e configuração sempre usem LF no repositório
+*.java text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.sql text eol=lf
+
+# Arquivos binários não devem ser mexidos
+*.jar binary
+*.war binary
